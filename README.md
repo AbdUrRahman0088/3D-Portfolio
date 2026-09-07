@@ -51,22 +51,6 @@ portfolio/
 
 ---
 
-## 🚀 Quick Start
-
-See [SETUP.md](./SETUP.md) for full local development instructions.
-
-**Shortest path:**
-
-```bash
-# Any static file server works, e.g.:
-npx serve .
-# then open http://localhost:3000
-```
-
-> ⚠️ Must be served over HTTP/HTTPS — `file://` won't work because of ES module imports.
-
----
-
 ## ⚙️ Customising Your Data
 
 Edit **`config.json`** to update all portfolio content — no JavaScript knowledge needed.
