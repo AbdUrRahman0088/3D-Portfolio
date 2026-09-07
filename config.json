@@ -1,0 +1,110 @@
+{
+  "personal": {
+    "name": "Abd Ur Rahman Saddique",
+    "title": "CS Student & Creative Developer",
+    "avatar": "🧑‍💻",
+    "bio": [
+      "Passionate Computer Science student at Riphah International University with hands-on experience in both design and development.",
+      "I craft clean code and compelling visuals — from web interfaces built with HTML, CSS & JS to Python automation and C++ systems.",
+      "Currently exploring the intersection of creative design and technical development."
+    ],
+    "stats": [
+      { "label": "Languages", "value": "5+" },
+      { "label": "Projects", "value": "10+" },
+      { "label": "Year", "value": "2025" },
+      { "label": "Based In", "value": "Lahore" },
+      { "label": ""}
+    ]
+  },
+  "experience": [],
+  "projects": [
+    {
+      "name": "Portfolio World",
+      "description": "This very 3D anime-style interactive portfolio built with Three.js, featuring a walk-through world with zone-based content.",
+      "emoji": "🌐",
+      "tags": ["Three.js", "JavaScript", "CSS", "HTML"],
+      "gradient": "linear-gradient(135deg, #6c5ce7, #a29bfe)"
+    },
+    {
+      "name": "Python Automation",
+      "description": "A suite of Python scripts automating repetitive tasks, file management, and data processing with clean CLI interfaces.",
+      "emoji": "🐍",
+      "tags": ["Python", "Automation", "CLI"],
+      "gradient": "linear-gradient(135deg, #00b894, #55efc4)"
+    },
+    {
+      "name": "C++ Data Structures",
+      "description": "Implemented core data structures and algorithms from scratch — linked lists, trees, sorting — as part of academic deep-dives.",
+      "emoji": "⚙️",
+      "tags": ["C++", "Algorithms", "OOP"],
+      "gradient": "linear-gradient(135deg, #fd79a8, #e84393)"
+    },
+    {
+      "name": "Responsive Web UI",
+      "description": "Built multiple responsive websites using Bootstrap, HTML5 and CSS3, focusing on clean layouts and mobile-first design.",
+      "emoji": "🎨",
+      "tags": ["HTML", "CSS", "Bootstrap", "JS"],
+      "gradient": "linear-gradient(135deg, #fdcb6e, #e17055)"
+    },
+    {
+      "name": "Java OOP Projects",
+      "description": "Academic Java projects exploring object-oriented principles: inheritance, polymorphism, interfaces, and design patterns.",
+      "emoji": "☕",
+      "tags": ["Java", "OOP", "Design Patterns"],
+      "gradient": "linear-gradient(135deg, #74b9ff, #0984e3)"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        { "name": "Python", "level": 80 },
+        { "name": "C++", "level": 90 },
+        { "name": "JavaScript", "level": 62 },
+        { "name": "Java", "level": 65 },
+        { "name": "HTML/CSS", "level": 85 }
+      ]
+    },
+    {
+      "category": "Frameworks & Tools",
+      "items": [
+        { "name": "Bootstrap", "level": 50 },
+        { "name": "Microsoft Office", "level": 90 },
+        { "name": "Git", "level": 65 }
+      ]
+    },
+    {
+      "category": "Design",
+      "items": [
+        { "name": "Graphic Design", "level": 75 },
+        { "name": "UI/UX Basics", "level": 65 },
+        { "name": "Adobe Tools", "level": 60 }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "ADP — Computer Science",
+      "institution": "Riphah International University",
+      "period": "October 2023 – July 2025",
+      "description": "Associate Degree Program in Computer Science, building foundations in programming, data structures, algorithms, and software development.",
+      "icon": "🎓"
+    },
+    {
+      "degree": "FSc Engineering",
+      "institution": "Cambridge College Raiwind",
+      "period": "October 2021 – June 2023",
+      "description": "Completed FSc Engineering with a strong foundation in Mathematics, Physics, and Chemistry.",
+      "icon": "🎓"
+    }
+  ],
+  "certifications": [],
+  "contact": {
+    "greeting": "Let's Build Something",
+    "message": "I'm open to freelance projects, collaborations, or just a good conversation about code and design. Drop me a message!",
+    "links": [
+      { "icon": "📧", "text": "abdurrahmanarain088@gmail.com", "url": "mailto:abdurrahmanarain088@gmail.com" },
+      { "icon": "💼", "text": "linkedin.com/in/abdurrahmansaddique009", "url": "https://www.linkedin.com/in/abdurrahmansaddique009" }
+    ]
+  }
+}

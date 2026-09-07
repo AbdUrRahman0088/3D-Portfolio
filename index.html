@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abd Ur Rahman Saddique — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen">
+    <div class="load-title">Abd Ur Rahman</div>
+    <div class="load-sub">LOADING WORLD</div>
+    <div class="load-bar-wrap"><div class="load-bar" id="load-bar"></div></div>
+    <div class="load-tip">Building your 3D experience…</div>
+  </div>
+
+  <!-- CINEMATIC INTRO -->
+  <div id="intro-overlay">
+    <div class="intro-box">
+      <div class="intro-name" id="intro-name">Abd Ur Rahman</div>
+      <div class="intro-role" id="intro-role">CS Student &amp; Creative Developer</div>
+      <div class="intro-scroll-hint">
+        Scroll to explore my world
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HUD -->
+  <div id="hud">
+    <div class="hud-name" id="hud-name">AbdUrRahmanSaddique</div>
+    <div class="zone-label" id="zone-label">Intro</div>
+  </div>
+
+  <!-- PROGRESS -->
+  <div id="progress-bar">
+    <div class="progress-dots" id="progress-dots"></div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+
+  <!-- CONTENT PANELS -->
+  <div id="panel-container">
+    <div class="zone-panel" id="panel-intro"></div>
+    <div class="zone-panel" id="panel-about"></div>
+    <div class="zone-panel" id="panel-projects"></div>
+    <div class="zone-panel" id="panel-skills"></div>
+    <div class="zone-panel" id="panel-education"></div>
+    <div class="zone-panel" id="panel-contact"></div>
+  </div>
+
+  <!-- THREE.JS CANVAS -->
+  <canvas id="three-canvas"></canvas>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
