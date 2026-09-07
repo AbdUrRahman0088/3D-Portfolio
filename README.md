@@ -1,1 +1,31 @@
 # 3D-Portfolio
+A cinematic, anime-style interactive 3D portfolio built with Three.js. Walk your character through a scroll-driven 3D world, with each zone revealing a different section of the portfolio.
+
+✨ Features
+3D Anime World — scroll to walk a voxel-style character through six themed zones
+Cinematic Intro — spin-descent entrance animation on load
+Bloom Post-Processing — Unreal Bloom pass for a glowing, stylized look
+Zone-Based Content Panels — glassmorphism panels reveal content as you explore
+Drag to Rotate Camera — mouse drag adjusts the third-person camera angle
+Touch Support — swipe to scroll on mobile
+Responsive Layout — panels reposition on narrow screens
+Config-Driven — all personal data lives in config.json; no JS edits needed
+🗂️ Project Structure
+portfolio/
+├── index.html       # Entry point & HTML structure
+├── styles.css       # All styles (loading, HUD, panels, responsive)
+├── script.js        # Three.js scene, character, zones, animations
+└── config.json      # Personal data (bio, projects, skills, contact)
+🗺️ World Zones
+Zone	Scroll Range	Content
+Intro	0 → -25	Name, title, animated ring platform
+About	-25 → -65	Bio, stats, floating orbs & trees
+Projects	-65 → -125	Project cards, holographic floor
+Skills	-125 → -175	Skill bars, orbiting skill orbs
+Education	-175 → -215	Education cards, star monument
+Contact	-215 → -250	Links, contact portal
+🛠️ Tech Stack
+Three.js r158 (ES modules via importmap)
+MeshToonMaterial for the anime/cel-shaded look
+EffectComposer + UnrealBloomPass for glow effects
+Vanilla HTML / CSS / JavaScript — zero build tools required
