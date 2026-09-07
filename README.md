@@ -89,9 +89,3 @@ Edit **`config.json`** to update all portfolio content — no JavaScript knowled
 |---|---|
 | **Email** | abdurrahmanarain088@gmail.com |
 | **LinkedIn** | [linkedin.com/in/abdurrahmansaddique009](https://www.linkedin.com/in/abdurrahmansaddique009) |
-
----
-
-## 📄 License
-
-This project is open for personal portfolio use. Feel free to fork and adapt it — a credit back is appreciated!
